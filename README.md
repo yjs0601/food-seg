@@ -100,4 +100,4 @@ python detect.py --source video.mp4  # 영상 파일
 
 ## 👤 개발자
 
-- GitHub: [@your-username](https://github.com/yjs0601)
+- GitHub: [@yjs0601](https://github.com/yjs0601)
