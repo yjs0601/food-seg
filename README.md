@@ -1,4 +1,4 @@
-# 🤖 병렬로봇 기반 음식 이물질 자동 분리 시스템
+# 병렬로봇 기반 음식 이물질 자동 분리 시스템
 
 > YOLOv11 세그멘테이션 모델을 활용하여 병렬로봇이 음식과 이물질을 실시간으로 인식하고 자동으로 분리하는 시스템
 
@@ -11,7 +11,7 @@ YOLOv11 Instance Segmentation 모델로 음식과 이물질을 픽셀 단위로 
 
 ---
 
-## 🎯 주요 기능
+## 주요 기능
 
 - **실시간 객체 인식**: YOLOv11을 활용한 음식 / 이물질 실시간 세그멘테이션
 - **직접 데이터 수집 및 라벨링**: 660장의 커스텀 데이터셋 구축
@@ -86,7 +86,18 @@ python detect.py --source video.mp4  # 영상 파일
 ## 📸 결과 예시
 
 <!-- 결과 이미지나 GIF 캡처해서 여기에 추가하면 임팩트 커짐 -->
-> 추론 결과 이미지 또는 시연 GIF 추가 예정
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/5838a449-f24e-4314-9024-8a4ff1eae73d"
+    width="48%"
+    alt="First GIF"
+  />
+  <img
+    src="https://github.com/user-attachments/assets/ff3dfbdd-7876-4de5-bc21-4a7aed5202d6"
+    width="48%"
+    alt="Second GIF"
+  />
+</p>
 
 ---
 
